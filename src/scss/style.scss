@@ -3,7 +3,14 @@
 @import '/src/base/reset';
 @import '/src/base/typography';
 
+//utils components
+@import '/src/utils/variables';
+
 //components
 @import '/src/components/header';
+@import '/src/components/buttons';
+
+//pages
+@import '/src/pages/home';
 
 
