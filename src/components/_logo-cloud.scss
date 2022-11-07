@@ -1,0 +1,17 @@
+.logo-cloud{
+    
+    &-wrapper{
+        background-color: white;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       .logo-cloud-item{
+        // flex: 1;
+        img{
+            width: 100%;
+            height: auto;
+
+        }
+       } 
+    }
+}
