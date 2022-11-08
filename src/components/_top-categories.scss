@@ -15,6 +15,7 @@
         object-fit: cover;
         transition: all 0.3s ease-in-out;
     }
+
     .content{
         background-color: rgba(#000000, 0.7);
         padding: 20px 20px;
@@ -36,6 +37,7 @@
 
         }
     }
+
     &:hover{
         .content{
             background-color: rgba($color,0.7);
@@ -48,4 +50,5 @@
             }
         }
     }
+    
 }
