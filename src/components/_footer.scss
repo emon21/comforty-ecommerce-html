@@ -258,14 +258,17 @@
     }
 
     &-copy-right{
-        padding: 24px;
+        margin-top:27px;
+        margin-bottom: 27px;
         display: flex;
         justify-content: space-between;
+
         .left-section{
             p{
                 color: $gray;
                 font-size: 14px;
                 font-weight: 400;
+                margin-bottom: 0;
             }
             b{
                 color: $primary;
