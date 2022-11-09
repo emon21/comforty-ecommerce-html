@@ -19,6 +19,28 @@
             transform: translateY(-50%);
             width: calc(100% + 240px);
             justify-content: space-between;
+            border-radius: 50%;
+            // .left-arrow{
+            //     background-color: white;
+            //     border-radius: 50%;
+            // }
+            // .left-arrow:hover{
+            //     background-color: $color;
+            //     border-radius: 50%;
+            // }
+            .icon-button{
+                background-color: white;
+                border-radius: 50% !important;
+                color: $color;
+                transition:all .5s ease-in-out;
+                
+            }
+            .icon-button:hover{
+                background-color: $color;
+                color: white;
+
+            }
+
 
         }
     }

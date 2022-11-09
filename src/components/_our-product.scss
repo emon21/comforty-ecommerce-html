@@ -1,0 +1,149 @@
+.our-products {
+    
+    margin-top: 40px;
+
+
+    .section-header{
+        h3{
+            color: $primary;
+        }
+        .icon-button{
+            border-radius: 50%;
+            
+        }
+
+    } 
+    &-item {
+
+        overflow: hidden;
+        box-sizing: border-box;
+        transition: all .5s ease-in;
+        margin-bottom: 40px;
+    
+        a{
+            display: inline;
+        } 
+       
+        .image {
+            width: 100%;
+            height: 312px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 6px;
+    
+    
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: all .5s ease-in;
+            }
+    
+        
+    
+            .label.bg-success {
+                position: absolute;
+                left: 20px;
+                top: 20px;
+                opacity: 0;
+                transition: all .5s ease-in;
+            }
+    
+        
+            .icon-button.heart {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                opacity: 0;
+                display: flex;
+            }
+           
+        }
+    
+        .content {
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            .icon-button.cart {
+                color: $primary;
+                display: flex;
+            }
+    
+    
+            .info {
+    
+                    a {
+                        font-size: 16px;
+                        font-weight: 400;
+                        display: inline-block;
+                        margin-bottom: 5px;
+    
+                        &:hover {
+                            color: $color;
+    
+                        }
+                    }
+    
+                    p {
+                        margin: 0;
+                        font-size: 18px;
+                        font-weight: 600;
+    
+                    }
+            }
+        }
+    
+        &:hover {
+           
+    
+            .content .info a {
+                color: $color;
+            }
+    
+            .icon-button.cart{
+                color: $lightshade; 
+                background-color: $color;
+             }
+    
+             .icon-button.heart {
+                 
+                 opacity: 1;
+                 
+             }
+    
+             .image{
+                img{
+                    transform: scale(1.1);
+                    transition: all .5s ease-in;
+                    
+                }
+    
+                .bg-success{
+                    opacity: 1;
+                }
+                
+            }
+    
+        }
+    
+    }
+}
+
+
+
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+    h3 {
+        margin-bottom: 0;
+        font-style: 32px;
+        font-weight: 600;
+
+    }
+}
+
